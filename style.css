@@ -1,0 +1,99 @@
+:root {
+    --pink: #d36699;
+    --green: #39a038;
+    --purple1: #b366f9;
+    --lightblue:#74a9f6;
+    --background: rgb(21, 20, 26);
+    --background2: #23222b;
+    --link: rgba(211,102,153,0.7);
+    --white2: #cfcfd8;
+    --white1: #fbfbfe;
+    --textborder:rgba(207,207,216,0.6509803921568628);
+}
+*{
+    font-family: 'Fira Code', monospace;
+    border: 0;
+    margin: 0;
+    box-sizing: border-box;
+    color: var(--white1);
+}
+header{
+    height: 60px;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    background-color: var(--background2);
+    width: 90vw;
+    align-items: center;
+    justify-content:flex-end;
+    padding-right: 30px;
+    margin: 30px;
+    flex-wrap: wrap;
+    box-shadow: 3px 3px var(--purple1);
+    z-index: 999;
+}
+header:hover{
+    background: linear-gradient(30deg, rgb(30, 191, 212), rgba(179, 12, 165, 0.877), rgba(8, 4, 8, 0.533));
+    transition: 1s;
+    
+}
+body{
+    align-items: center;
+    background-color: black;
+
+}
+h2{
+    text-align: center;
+    margin-top: 30px;
+}
+a{
+    text-decoration:none;
+    margin: 10px;
+    font-weight: 700;
+    color: var(--pink);
+    
+    
+}
+img{
+    height: 100%;
+    width: 100%;
+}
+a:hover{
+    color: var(--purple1);
+    transition: .5s;
+
+}
+.welcome-section{
+    
+    text-align: center;
+    position: relative;
+    top: 35vh;
+    
+}
+h1,h3{
+    color: var(--lightblue);
+
+}
+#section1{
+    background-color: #3b065f;
+    height: 500px;
+    position: relative;
+    
+}
+#section2{
+    position: relative;
+    height: 500px;
+}
+.projects{
+    border:1px solid;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 30vw;
+    margin-top: 30px;
+    margin-left: 35% ;
+    
+    flex-wrap: wrap;
+    height: 200px;
+}
