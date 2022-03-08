@@ -17,7 +17,7 @@
     box-sizing: border-box;
     color: var(--white1);
 }
-header{
+header #navbar{
     height: 60px;
     position: fixed;
     display: flex;
@@ -45,6 +45,7 @@ body{
 h2{
     text-align: center;
     margin-top: 30px;
+    margin-bottom: 100px;
 }
 a{
     text-decoration:none;
@@ -60,11 +61,11 @@ img{
     right: 10vw;
     
 }
-#nft{
+.nft{
     align-self: center;
     box-shadow: inset 0 0 2em #3b065f, 0 0 2em #b366f9;
     position: relative;
-    right: 12vw;
+    right: 15vw;
 }
 a:hover{
     color: var(--purple1);
@@ -72,7 +73,7 @@ a:hover{
 
 }
 .welcome-section{
-    
+    height: 100vh;
     text-align: center;
     position: relative;
     top: 35vh;
@@ -80,6 +81,7 @@ a:hover{
 }
 h1,h3{
     color: var(--lightblue);
+    
 
 }
 #section1{
@@ -90,11 +92,22 @@ h1,h3{
 }
 #section2{
     position: relative;
-    height: 500px;
+    height: 100vh;
 }
-#netflix{
+.netflix{
     align-self: center;
     box-shadow: inset 0 0 2em #3b065f, 0 0 2em #b366f9;
+    position: relative;
+    right: 15vw;
+    
+}
+.title{
+    position: relative;
+    right: 16vw;
+}
+#navbar2{
+    text-align: center;
+    margin-top: 10vh;
 }
 .projects{
     display: flex;
@@ -106,11 +119,15 @@ h1,h3{
     flex-wrap: wrap;
 
 }
-#doc{
+.doc{
     box-shadow: inset 0 0 2em #3b065f, 0 0 2em #b366f9;
     align-self: center;
+    position: relative;
+    right: 15vw;
 }
-#bart{
+.bart{
     box-shadow: inset 0 0 2em #3b065f, 0 0 2em #b366f9;
     align-self: center;
+    position: relative;
+    right: 15vw;
 }
